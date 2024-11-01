@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+}
+html, body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #33413A;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+p{
+    text-align: justify;
+    margin: 0;
+}
+h3{
+    margin-left: 2rem;
+    font-weight: normal;
+}
+h4{
+    margin: 0 0 1rem 0;
+}
+li{
+    margin-bottom: 1rem;
+}
