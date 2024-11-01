@@ -2,12 +2,25 @@
     box-sizing: border-box;
 }
 html, body{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Baskervville SC", Arial, Helvetica, sans-serif;
     font-size: 20px;
     color: #33413A;
     margin: 0;
     padding: 0;
     scroll-behavior: smooth;
+}
+.header-wrapper, .footer-wrapper{
+    background-color: rgb(51, 65, 58, 15%);
+    min-height: 3rem;
+    display: flex;
+}
+.header-wrapper{
+    justify-content: flex-end;
+}
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 5rem;
 }
 p{
     text-align: justify;
@@ -22,4 +35,100 @@ h4{
 }
 li{
     margin-bottom: 1rem;
+}
+.nav-list{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    gap: 2rem;
+    padding-right: 3rem;
+}
+.link{
+    color: #55493B;
+}
+.link:hover{
+    transition: 0.5s;
+    color: #BAAC9A;
+}
+.nav-link{
+    text-decoration: none;
+}
+.main-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1.5rem;
+}
+.div-left{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(51, 65, 58, 15%);
+    border-radius: 0px 550px 2000px 2000px;
+}
+.div-right{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+.title{
+    text-align: center;
+}
+.name{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.avatar{
+    border-radius: 30%;
+    margin-top: 1rem;
+}
+.summery-text{
+    margin: 0 1rem;
+}
+.contacts-container{
+    margin: 0 2rem;
+}
+.section-item{
+    display: flex;
+    gap: 1rem;
+}
+.contacts-item{
+    flex-direction: row;
+    margin-bottom: 1rem;
+}
+.svg-icons{
+    width: 24px;
+    height: 24px;
+    background-size: cover;
+    margin: 0;
+}
+.contacts-svg{
+    background-image: url(./svg/gmail-icon.svg);
+}
+.github-svg{
+    background-image: url(./svg/github-icon.svg);
+}
+.discord-svg{
+    background-image: url(./svg/discord-icon.svg);
+}
+.code-pre{
+    background-color: #f1f1f1;
+}
+.footer-wrapper{
+    justify-content: space-around;
+    align-items: center;
+}
+.footer-gitlink{
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+}
+.rss-link{
+    width: 121px;
+    height: 45px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 0.5rem;
 }
