@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Baskervville+SC&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <title>CV</title>
+</head>
+<body>
+    <header class="container">
+        <div class="header-wrapper">
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#contacts" class="link nav-link">Contacts</a></li>
+                    <li class="nav-item"><a href="#english" class="link nav-link">English level</a></li>
+                    <li class="nav-item"><a href="#education" class="link nav-link">Education</a></li>
+                    <li class="nav-item"><a href="#summary" class="link nav-link">About me</a></li>
+                    <li class="nav-item"><a href="#skills" class="link nav-link">Skills</a></li>
+                    <li class="nav-item"><a href="#projects" class="link nav-link">Work Experience</a></li>
+                    <li class="nav-item"><a href="#code" class="link nav-link">Code example</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="container">
+        <div class="main-wrapper">
+            <div class="div-left">
+                <section class="name">
+                    <img src="./avatar.jpg" alt="my photo" class="avatar">
+                    <h1>Markova Kseniia</h1>
+                    <h5>Junior Front-end Developer</h5>
+                </section>
+                <section class="contacts" id="contacts">
+                    <h2 class="title">Contacts</h2>
+                    <div class="contacts-container">
+                        <div class="section-item contacts-item">
+                            <span class="svg-icons contacts-svg"></span><p>Email:</p><h4><a href="mailto:kseniimarkova3@gmail.com" class="link">kseniimarkova3@gmail.com</a></h4>
+                        </div>
+                        <div class="section-item contacts-item">
+                            <span class="svg-icons discord-svg"></span><p>Discord:</p><h4><a href="https://discordapp.com/users/952687091446337656/" class="link">kseniimarkova2419</a></h4>
+                        </div>
+                        <div class="section-item contacts-item">
+                            <span class="svg-icons github-svg"></span><p>Github:</p><h4><a href="https://github.com/KseniiaMarkova" class="link">@KseniiaMarkova</a></h4>
+                        </div>
+                    </div>
+                </section>
+                <section class="education" id="education">
+                    <h2 class="title">Education</h2>
+                    <ul class="section-list">
+                        <li><h4>Bachelor’s degree :</h4><p>Tomsk Polytechnic University</p></li>
+                        <li><h4>Master’s degree :</h4><p>ITMO University</p></li>
+                    </ul>
+                </section>
+                <section class="english" id="english">
+                    <h2 class="title">English level</h2>
+                    <h3>B1: Intermediate</h3>
+                </section>
+            </div>
+            <div class="div-right">
+                <section class="summary" id="summary">
+                    <h2 class="title">About me</h2>
+                    <p class="summery-text">I am a motivated web developer currently honing my skills at RSSchool, where I focus on building a solid foundation in web development. My goal is to enhance my resume by mastering HTML, CSS, and JavaScript, which will enable me to create real-world projects using frameworks like React or Vue3. I am passionate about turning ideas into functional web applications and continuously strive to bridge my skills gap through practical experience and learning.</p>
+                </section>
+                <section class="skills" id="skills">
+                    <h2 class="title">Skills</h2>
+                    <ul class="section-list">
+                        <li>
+                            <div class="section-item">
+                                <p>Web-development :</p> <h4>HTML5, CSS3, JavaScript, Python, C#</h4>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="section-item">
+                                <p>Frameworks and libraries: </p> <h4>React, Vue3</h4>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="section-item">
+                                <p>Version control: </p> <h4>Github</h4>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="section-item">
+                                <p>Graphics : </p> <h4>Figma</h4>
+                            </div>
+                        </li>
+                    </ul>
+                </section>
+                <section class="projects" id="projects">
+                    <h2 class="title">Work Experience</h2>
+                    <ol class="projects-list">
+                        <li class="projects-item"><h4><a href="https://kseniimarkova.github.io/Travel/" class="link">Travel Japan:</a></h4>
+                            <ul>
+                                <li>Introduction to HTML and CSS</li>
+                                <li>Export of styles and graphics from Figma</li>
+                            </ul>
+                        </li>
+                        <li class="projects-item"><h4><a href="https://rolling-scopes-school.github.io/kseniiamarkova-JSFEPRESCHOOL2024Q2/shelter/" class="link">Shelter:</a></h4>
+                            <ul>
+                                <li>Valid semantic adaptive layout</li>
+                                <li>Export of styles and graphics from Figma</li>
+                                <li>Use of JavaScript to implement the functionality</li>
+                            </ul>
+                        </li>
+                        <li class="projects-item"><h4><a href="https://kseniiamarkova.github.io/rsschool-cv-2024Q2/" class="link">Curriculum Vitae for stage0 RS-school:</a></h4>
+                            <ul>
+                                <li>Working with Git and GitHub</li>
+                                <li>Using Markdown markup language</li>
+                                <li>Basic web development skills</li>
+                            </ul>
+                        </li>
+                        <li class="projects-item"><h4><a href="https://kseniiamarkova.github.io/cssMemeSlider-2024Q2/cssMemeSlider/index.html" class="link">CSS Meme Slider:</a></h4>
+                            <ul>
+                                <li>Working with relative units of measurement</li>
+                            </ul>
+                        </li>
+                    </ol>
+                </section>
+                <section class="code" id="code">
+                    <h2 class="title">Code example</h2>
+                    <pre class="code-pre">
+<code>
+        const zeroFuel = (distanceToPump, mpg, fuelLeft) => {
+            let possibleDistance = mpg * fuelLeft;
+            if (distanceToPump == possibleDistance){
+                return true;
+            }
+            else{
+                 return false;
+            }
+        };
+</code>
+                    </pre>
+                </section>
+            </div>
+        </div>
+    </main>
+    <footer class="container">
+        <div class="footer-wrapper">
+            <a href="https://rs.school/courses/javascript-ru" class="rss-link"><img src="./svg/rsschool-logo.svg" alt="rsschool logo"></a>
+            <div class="footer-gitlink">
+                <span class="svg-icons github-svg contacts-item"></span>
+                <p><a href="https://github.com/KseniiaMarkova" class="link" >KseniiaMarkova</a></p>
+            </div>
+            <p>&copy; 2024</p>
+        </div>
+    </footer>
+</body>
+</html>
